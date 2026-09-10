@@ -1,0 +1,18 @@
+# EGT305 - Big Data Processing Platforms & Applications
+# Required dependencies for the assignment
+
+# PySpark - Core big data processing framework
+pyspark>=3.4.0
+
+# Required for PySpark pandas API (pyspark.pandas)
+pyarrow>=12.0.0
+
+# Required for PySpark pyspark.pandas plotting (PySpark 4.x)
+plotly>=5.0.0
+
+# pandas < 3.0.0 - PySpark 4.x does not yet fully support pandas >= 3.0.0
+pandas>=2.2.0,<3.0.0
+
+# Optional: Jupyter environment
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
